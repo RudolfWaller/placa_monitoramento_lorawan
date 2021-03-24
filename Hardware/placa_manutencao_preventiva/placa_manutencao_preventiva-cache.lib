@@ -233,12 +233,12 @@ X VO 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# placa_manutencao_preventiva-rescue_FQP30N06L-FQP30N06L
+# placa_manutencao_preventiva-rescue_BSS89
 #
-DEF placa_manutencao_preventiva-rescue_FQP30N06L-FQP30N06L Q 0 40 N N 1 L N
+DEF placa_manutencao_preventiva-rescue_BSS89 Q 0 40 N N 1 L N
 F0 "Q" -450 100 50 H V L BNN
-F1 "placa_manutencao_preventiva-rescue_FQP30N06L-FQP30N06L" -450 0 50 H V L BNN
-F2 "TO220V" 0 0 50 H I L BNN
+F1 "placa_manutencao_preventiva-rescue_BSS89" -450 0 50 H V L BNN
+F2 "TO-92L_Inline" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 C 100 -100 14 0 0 0 N
@@ -263,9 +263,9 @@ P 2 0 0 6 170 20 150 20 N
 P 2 0 0 6 180 30 170 20 N
 P 3 0 0 6 40 0 80 30 80 -30 F
 P 3 0 0 6 150 20 130 -10 170 -10 F
-X ~ 1 -100 -100 100 R 40 40 0 0 P
-X ~ 2 100 200 100 D 40 40 0 0 P
-X ~ 3 100 -200 100 U 40 40 0 0 P
+X S 1 100 -200 100 U 40 40 0 0 P
+X D 2 100 200 100 D 40 40 0 0 P
+X G 3 -100 -100 100 R 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #

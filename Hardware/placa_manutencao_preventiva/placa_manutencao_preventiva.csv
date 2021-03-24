@@ -1,21 +1,20 @@
-"Id";"Designador";"Pacote";"Quantidade";"DesignaÃ§Ã£o";"Fornecedor e referÃªncia";
-1;"J6";"PinSocket_1x08_P2.54mm_Vertical";1;"MPU6050";;;
-2;"D2,D1,D3";"D_DO-41_SOD81_P10.16mm_Horizontal";3;"1N5819";;;
-3;"G***";"logo_monitoramento_lorawan_pequeno";1;"LOGO";;;
-4;"G***";"logo_monitoramento_lorawan";1;"LOGO";;;
-5;" ";"Arduino_UNO_R3_OnlyMountingHoles";1;"Arduino_UNO_R3_OnlyMountingHoles";;;
-6;"J1";"PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical";1;"ENT_DIGITAL";;;
-7;"J2";"PinHeader_1x03_P2.54mm_Vertical";1;"Power";;;
-8;"J5";"PinHeader_1x02_P2.54mm_Horizontal";1;"BAT_HELTEC_CONN";;;
-9;"J7";"PinSocket_1x04_P2.54mm_Vertical";1;"BMP180";;;
-10;"Q2";"TO220V";1;"FQP30N06L";;;
-11;"R2,R3,R5";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";3;"100k";;;
-12;"R4";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"470k";;;
-13;"U1";"Heltec_WiFi_LoRa_V1";1;"Heltec_Wifi_LoRa_V1";;;
-14;"J3";"TestPoint_2Pads_Pitch2.54mm_Drill0.8mm";1;"TESTE_TENSAO";;;
-15;"C1";"CP_Radial_D5.0mm_P2.00mm";1;"10uF";;;
-16;"J8";"PinHeader_1x04_P2.54mm_Vertical";1;"Renewable energy";;;
-17;"U2";"TO-220-3_Vertical";1;"LM7805_TO220";;;
-18;"J4";"PinHeader_1x02_P1.27mm_Vertical";1;"BAT_EXT_JST_1.25mm";;;
-19;"C2,C4,C5,C6,C7";"C_Disc_D5.1mm_W3.2mm_P5.00mm";5;"0.1uF";;;
-20;"J12,J13,J14,J15,J16,J17,J18,J19,J20,J21,J22,J23,J24,J25";"Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork";14;"Conn_01x01";;;
+Item;Qtde;Referência;Componente;Footprint
+1;1;C1;Capacitor eletrolítico 10uF @ 16V;Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+2;5;C2, C4, C5, C6, C7;Capacitor cerâmico 0.1uF;Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm
+3;3;D1, D2, D3;Diodo 1N5819;Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal
+4;1;J1;Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical;Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical
+5;1;J2;3 pinos mini-modu;Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+6;1;J3;2 pinos mini-modu;TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm
+7;1;J4;2 pinos mini-modu;Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical
+8;1;J5;BAT_HELTEC_CONN;Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal
+9;1;J6;8 pinos mini-modu;Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical
+10;1;J7;4 pinos mini-modu;Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical
+11;1;J8;4 pinos mini-modu;Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+13;1;Q2;Transistor BSS-89 TO-92;BSS89:TO92
+14;3;R2, R3, R5;Resistor CR25 100k;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+15;1;R4;Resistor CR25 470k;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+16;1;U1;Heltec_Wifi_LoRa_V1;heltec_wifi_lora_v1:Heltec_WiFi_LoRa_V1
+17;1;U2;CI LM7805 TO-220;Package_TO_SOT_THT:TO-220-3_Vertical
+;;;;
+;;;;
+;;;23 pinos mini-modu (a régua tem 40 pinos);

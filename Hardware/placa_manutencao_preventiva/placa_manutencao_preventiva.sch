@@ -390,17 +390,6 @@ Wire Wire Line
 Wire Wire Line
 	1100 7050 1000 7050
 $Comp
-L placa_manutencao_preventiva-rescue:FQP30N06L-FQP30N06L Q2
-U 1 1 5F9A92EB
-P 1800 6850
-F 0 "Q2" H 2008 6896 50  0000 L CNN
-F 1 "FQP30N06L" H 2008 6805 50  0000 L CNN
-F 2 "fqp30n06l:TO220V" H 1800 6850 50  0001 L BNN
-F 3 "" H 1800 6850 50  0001 C CNN
-	1    1800 6850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_US R2
 U 1 1 5F9AA3E1
 P 1550 7200
@@ -1114,4 +1103,15 @@ Wire Wire Line
 	2950 4100 3350 4100
 Wire Wire Line
 	8300 3500 7900 3500
+$Comp
+L placa_manutencao_preventiva-rescue:BSS89 Q2
+U 1 1 605CA543
+P 1800 6850
+F 0 "Q2" H 2008 6896 50  0000 L CNN
+F 1 "BSS89" H 2008 6805 50  0000 L CNN
+F 2 "TO-92L_Inline" H 1800 6850 50  0001 L BNN
+F 3 "" H 1800 6850 50  0001 C CNN
+	1    1800 6850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
